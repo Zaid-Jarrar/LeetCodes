@@ -6,15 +6,21 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
- 
-
-        if len(s) != len(t):
+        len_s = 0
+        len_t = 0
+        for char in s:
+            len_s +=1
+        
+        for char in t:
+            len_t +=1  
+            
+        if len_s != len_t:
             return False
         
         char_storage = {}
         
         mapped = set()
-        for index in range(len(s)):
+        for index in range(len_s):
             s_char = s[index]
             t_char = t[index]
             if s_char in char_storage:
