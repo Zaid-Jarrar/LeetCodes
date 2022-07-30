@@ -18,7 +18,6 @@ class Solution(object):
             return False
         
         char_storage = {}
-        
         mapped = set()
         length = 0
         # for index in range(len_s):
