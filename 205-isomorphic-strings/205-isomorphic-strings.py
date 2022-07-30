@@ -20,9 +20,12 @@ class Solution(object):
         char_storage = {}
         
         mapped = set()
-        for index in range(len_s):
-            s_char = s[index]
-            t_char = t[index]
+        length = 0
+        # for index in range(len_s):
+        while length < len_s:
+            s_char = s[length]
+            t_char = t[length]
+            length +=1
             if s_char in char_storage:
                 if char_storage[s_char] != t_char:
                     return False
