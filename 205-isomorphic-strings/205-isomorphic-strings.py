@@ -23,7 +23,6 @@ class Solution(object):
             else:
                 if t_char in mapped:
                     return False
-            
             char_storage[s_char] = t_char
             mapped.add(t_char)
         
