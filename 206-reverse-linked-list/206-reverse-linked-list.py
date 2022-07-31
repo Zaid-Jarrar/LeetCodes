@@ -9,8 +9,8 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        # if head is None:
-        #     return head
+        if head is None:
+            return head
         prev = None
         curr = head
         
