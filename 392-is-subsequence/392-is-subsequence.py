@@ -6,7 +6,7 @@ class Solution(object):
         final = ''
         if s == '':
             return True
-        elif len(s) < len(t) and s != '' and t != '':
+        elif len(s) < len(t) and t != '':
 
             while s_counter < len(s) and t_counter < len(t):
                 
