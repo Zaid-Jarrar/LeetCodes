@@ -19,6 +19,6 @@ class Solution(object):
             curr.next = prev
             prev = curr
             curr = nex
-        head = prev
-        return head
+        # head = prev
+        return prev
         
