@@ -18,12 +18,12 @@ class Solution(object):
                     s_counter +=1
                     t_counter +=1
 
-
                 else:
                     
                     t_counter+=1
             if final == s:
-              return True
+                
+                return True
             return False
 
         return False
