@@ -29,7 +29,6 @@ class Solution(object):
         return hare
     
        
-    
 def getIntersect(head):
     
     # slow = head
