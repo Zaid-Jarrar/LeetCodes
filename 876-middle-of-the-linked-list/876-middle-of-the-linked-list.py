@@ -16,6 +16,7 @@ class Solution(object):
             curr = curr.next
       
         middle = (length // 2) + 1
+        
         curr = head
         count = 1
         while count != middle:
