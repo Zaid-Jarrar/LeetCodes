@@ -11,7 +11,9 @@ class Solution(object):
         :rtype: ListNode
         """
         
-        # main idea here is that we want to firstly find the loop and then we send out a new tortoise to finally intersect with the old tortoise (from the intersect point between the fast and slow) and when they do that will be the beginning Node of the loop, 
+        
+        # main idea here is that we want to firstly find the loop and then we send out a new tortoise to finally intersect          with the old tortoise (from the intersect point between the fast and slow) and when they do that will be the                beginning Node of the loop, 
+       
         if not head:
             return None
         intersect = getIntersect(head)
@@ -34,15 +36,11 @@ def getIntersect(head):
     # fast = head
     slow = fast = head
     
-    tort = head
-    count = 0
-    
     while fast and fast.next:
         slow = slow.next
         fast = fast.next.next
             
         if fast == slow:
-            
             return fast         
       
     return None
