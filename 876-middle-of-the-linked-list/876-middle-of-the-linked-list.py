@@ -21,6 +21,5 @@ class Solution(object):
         while count != middle:
             curr = curr.next
             count += 1
-            
         return curr
             
