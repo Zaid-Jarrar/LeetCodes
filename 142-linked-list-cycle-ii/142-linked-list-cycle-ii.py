@@ -15,6 +15,7 @@ class Solution(object):
         if not head:
             return None
         intersect = getIntersect(head)
+        
         if not intersect:
             return None
         
@@ -32,12 +33,16 @@ def getIntersect(head):
     # slow = head
     # fast = head
     slow = fast = head
-
+    
+    tort = head
+    count = 0
+    
     while fast and fast.next:
         slow = slow.next
         fast = fast.next.next
             
-        if fast == slow:          
+        if fast == slow:
+            
             return fast         
       
     return None
