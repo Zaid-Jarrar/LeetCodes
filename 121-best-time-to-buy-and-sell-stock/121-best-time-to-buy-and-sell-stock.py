@@ -8,7 +8,8 @@ class Solution(object):
             return 0
         
         max_profit = 0      
-        purchase = prices[0] 
+        purchase = prices[0]
+        
         for price in prices:
             
             profit = price - purchase
