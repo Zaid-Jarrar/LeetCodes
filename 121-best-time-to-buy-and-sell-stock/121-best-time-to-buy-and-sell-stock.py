@@ -11,6 +11,7 @@ class Solution(object):
         purchase = prices[0]
         
         for price in prices:
+            
             profit = price - purchase
             if profit > max_profit:
                 max_profit = profit
