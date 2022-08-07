@@ -4,8 +4,7 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        
-        
+            
         max_profit = 0      
         purchase = prices[0] 
         for price in prices:
