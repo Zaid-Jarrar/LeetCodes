@@ -6,6 +6,7 @@ class Solution(object):
         """
         if prices is None:
             return 0
+        
         max_profit = 0      
         purchase = prices[0] 
         for price in prices:
