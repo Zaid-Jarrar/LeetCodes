@@ -15,8 +15,7 @@ class Solution(object):
             if profit > max_profit:
                 max_profit = profit
             if price < purchase:
-                purchase = price
-                
+                purchase = price    
                      
         return max_profit
         
