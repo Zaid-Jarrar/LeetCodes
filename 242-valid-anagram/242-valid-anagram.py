@@ -5,6 +5,8 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
+        # the main idea here is knowing how many times a letter has appeared in our string 
+        # then comparing the two dictionaries together
         s_dic = {}
         t_dic = {}
         for letter in s:
@@ -15,7 +17,8 @@ class Solution(object):
         
         for letter in t:
             t_dic[letter] = t_dic.get(letter,0) + 1
-        
+    
+    
         if t_dic == s_dic:
             return True
         return False
