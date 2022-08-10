@@ -5,18 +5,18 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        dic = {}
-        d = {}
+        s_dic = {}
+        t_dic = {}
         for letter in s:
-            if letter not in dic:
-                dic[letter] = 1
+            if letter not in s_dic:
+                s_dic[letter] = 1
             else:
-                dic[letter] +=1
+                s_dic[letter] +=1
         
         for letter in t:
-            d[letter] = d.get(letter,0) + 1
+            t_dic[letter] = t_dic.get(letter,0) + 1
         
-        if d == dic:
+        if t_dic == s_dic:
             return True
         return False
             
