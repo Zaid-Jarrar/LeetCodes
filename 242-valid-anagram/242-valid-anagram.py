@@ -7,6 +7,7 @@ class Solution(object):
         """
         # the main idea here is knowing how many times a letter has appeared in our string 
         # then comparing the two dictionaries together
+        # it can work with numbers too but we need to make sure the type changes to string instead of integer
         s_dic = {}
         t_dic = {}
         for letter in s:
