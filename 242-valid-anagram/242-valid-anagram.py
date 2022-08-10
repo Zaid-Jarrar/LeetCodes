@@ -5,8 +5,8 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        text_s = ','.join((sorted(s)))
-        text_t = ','.join((sorted(t)))
+        text_s = sorted(s)
+        text_t = sorted(t)
         if text_s == text_t:
             return True
         return False
