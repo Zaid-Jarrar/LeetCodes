@@ -47,6 +47,7 @@ class Solution(object):
                 
             index +=1
             add_index +=1
+            
         return result
                     
 
