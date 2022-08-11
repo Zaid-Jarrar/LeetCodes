@@ -6,6 +6,7 @@ class Solution(object):
         :type p: str
         :rtype: List[int]
         """
+        
 # the main idea is to check if the dic of s has the same number of letters as the dic of p but only if their length are             the same
 
 #collections.Counter() helps count the freq of letters in our strings and it is a dic
