@@ -29,11 +29,12 @@ class Solution(object):
         dic_s = collections.Counter(s[:len(p)])
         dic_p = collections.Counter(p)
         result = []
-        
+        s_length = len(s)
+        p_length = len(p)
         index = 0
-        add_index = len(p)
+        add_index = p_length
         
-        while add_index <= len(s):
+        while add_index <= s_length:
             if dic_s == dic_p:
                 result.append(index)
             
@@ -41,7 +42,7 @@ class Solution(object):
             if dic_s[s[index]] == 0:
                 dic_s.pop(s[index])
             
-            if add_index < len(s):
+            if add_index < s_length:
                 dic_s[s[add_index]] +=1
                 
             index +=1
