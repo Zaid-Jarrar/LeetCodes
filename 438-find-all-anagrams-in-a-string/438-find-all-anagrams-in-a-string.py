@@ -48,8 +48,9 @@ class Solution(object):
             add_index +=1
         return result
                     
-        
+
         # OR THIS BUT IT IS Alot SLOWER and thus fails the time allowed 
+        
 #         result = []
         
 #         for index in range(len(s)):  
