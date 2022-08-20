@@ -4,6 +4,7 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
+        
         i = 0
         strs.sort()
         word = strs[0]
