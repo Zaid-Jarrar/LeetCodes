@@ -1,5 +1,6 @@
 class Solution(object):
     def removeDuplicates(self,nums):
+        
         k= 1
         for i in range(len(nums)-1):
             
