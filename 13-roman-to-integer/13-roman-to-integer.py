@@ -4,6 +4,8 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        # main idea here is get rid of the edge cases but replacing them with what can be taken from the dic and then summing them all together 
+        
         result = 0
         dic = {
             "I":  1,
