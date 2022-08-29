@@ -6,7 +6,6 @@ class Solution(object):
         :rtype: List[int]
         """
         
-        
         dic = {}
         for index in range(len(nums)):
             num = nums[index]
