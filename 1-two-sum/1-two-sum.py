@@ -5,6 +5,8 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        
+        
         result = []
         for index in range(len(nums)):
             for index2 in range(len(nums)):
